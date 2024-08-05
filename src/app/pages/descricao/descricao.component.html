@@ -1,0 +1,37 @@
+
+<h5 class="container">
+    Bem vindo(a) ao site oficial do meu aniversário!!!
+    Aqui você poderá sanar suas dúvidas sobre o evento.
+</h5>
+<ul class="nav nav-tabs" id="minhaAba" role="tablist">
+    <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="geral-tab" data-bs-toggle="tab" data-bs-target="#geral" type="button"
+            role="tab" aria-controls="geral" aria-selected="true">Geral</button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button class="nav-link" id="localização-tab" data-bs-toggle="tab" data-bs-target="#localização" type="button"
+            role="tab" aria-controls="localização" aria-selected="false">Localização</button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button class="nav-link" id="eventos-tab" data-bs-toggle="tab" data-bs-target="#eventos" type="button"
+            role="tab" aria-controls="eventos" aria-selected="false">Eventos</button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button class="nav-link" id="financeiro-tab" data-bs-toggle="tab" data-bs-target="#financeiro" type="button"
+            role="tab" aria-controls="financeiro" aria-selected="false">Financeiro</button>
+    </li>
+</ul>
+<div class="tab-content" id="conteudoMinhaAba">
+    <div class="tab-pane fade show active" id="geral" role="tabpanel" aria-labelledby="geral-tab">
+        <app-info-geral></app-info-geral>
+    </div>
+    <div class="tab-pane fade" id="localização" role="tabpanel" aria-labelledby="localização-tab">
+        <app-localizacao></app-localizacao>
+    </div>
+    <div class="tab-pane fade" id="eventos" role="tabpanel" aria-labelledby="eventos-tab">
+        <app-eventos></app-eventos>
+    </div>
+    <div class="tab-pane fade" id="financeiro" role="tabpanel" aria-labelledby="financeiro">
+        <app-financeiro></app-financeiro>
+    </div>
+</div>
