@@ -1,0 +1,16 @@
+.header {
+    background-color: burlywood;
+    width: 1fr;
+    height: 7rem;
+}
+
+.logo {
+    width: 10rem;
+    transition: transform 0.1;
+}
+
+.logo:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
