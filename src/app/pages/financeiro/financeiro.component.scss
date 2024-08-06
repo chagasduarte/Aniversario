@@ -1,0 +1,66 @@
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #ff6347;
+}
+.present-section {
+    display: grid;
+    grid-template-areas: 
+    "info pix-info";
+    grid-template-columns: 45% 45%;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px 0;
+}
+.pix-info {
+    grid-area: pix-info;
+}
+
+.info {
+    grid-area: info;
+}
+
+.present-section h2 {
+    margin: 0;
+    color: #00796b;
+}
+.present-section p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.pix-info {
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+.pix-info p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+.pix-code {
+    font-family: monospace;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1.2em;
+    color: #00796b;
+}
+.qrcode {
+    max-width: 500px;
+    max-height: auto;
+    min-width: none;
+}
+@media (max-width: 768px) {
+      .present-section {
+        grid-template-areas: 
+        "info"
+        "pix-info";
+      }
+}

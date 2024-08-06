@@ -46,10 +46,10 @@
 
 @media screen and (max-width: 758px) {
    .pagina {
-    grid-template-areas: 
-    "infPrincipal"
-    "informacoes"
-    "geral";
-    grid-template-columns: 100%;
+        grid-template-areas: 
+        "infPrincipal"
+        "informacoes"
+        "geral";
+        grid-template-columns: 80%;
    }
 }
