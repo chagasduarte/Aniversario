@@ -1,0 +1,22 @@
+.evento {
+    display: grid;
+    grid-template-areas: 
+    "description photo";
+    grid-template-columns: 45% 45%;
+}
+
+.description {
+    grid-area: description;
+    align-self: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.photo {
+    grid-area: photo;
+    text-align: center;
+}
+
+.photo img {
+    width: 100%;
+}
