@@ -3,10 +3,6 @@
     height: auto;
 }
 
-.container {
-    background-color: rgba(107, 116, 116, 0.623);
-    border-radius: 8px;
-}
 h1 {
     text-align: center;
     color: aliceblue;
@@ -24,14 +20,20 @@ h1 {
 }
 .event h2 {
     margin: 0;
-    font-size: 30px;
+    font-size: 25px;
     color: #000000;
 }
 .event p {
     margin: 5px 0 0;
-    font-size: 25px;
+    font-size: 20px;
 }
 .time {
     font-weight: bold;
     color: #7db7f5;
+}
+
+.informacoes {
+    width: 70%;
+    margin-top: 7rem;
+    margin-right: 5px;
 }
