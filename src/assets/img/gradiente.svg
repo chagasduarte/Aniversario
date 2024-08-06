@@ -1,0 +1,7 @@
+<svg height="1780" width="1780" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <rect x="10" y="10" rx="40"  id="grad1">
+
+  </defs>
+  <ellipse cx="100" cy="100" rx="100" ry="100" fill="url(#grad1)" />
+</svg>

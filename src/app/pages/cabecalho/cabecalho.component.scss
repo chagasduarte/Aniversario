@@ -1,8 +1,9 @@
 .header {
-    font-family: Rock Salt;
-    background-color: burlywood;
+    display: flex;
     width: 1fr;
-    height: 7rem;
+    height: 10rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
