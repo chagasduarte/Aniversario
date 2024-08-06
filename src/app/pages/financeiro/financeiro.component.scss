@@ -49,18 +49,22 @@ h1 {
     font-family: monospace;
     padding: 10px;
     border-radius: 4px;
-    font-size: 1.2em;
+    font-size: 1rem;
     color: #00796b;
+    background-color: rgba(15, 50, 120, 0.4);
 }
 .qrcode {
     max-width: 500px;
     max-height: auto;
-    min-width: none;
+    min-width: 100px;
+
+    border-radius: 4px;
 }
 @media (max-width: 768px) {
       .present-section {
         grid-template-areas: 
         "info"
         "pix-info";
+        grid-template-columns: 90%;
       }
 }
