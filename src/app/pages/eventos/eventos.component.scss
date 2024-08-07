@@ -20,3 +20,12 @@
 .photo img {
     width: 100%;
 }
+
+@media screen and (max-width: 758) {
+    .evento {
+         grid-template-area: 
+         "description"
+         "photo";
+         grid-template-columns: 90%;
+     }
+}
